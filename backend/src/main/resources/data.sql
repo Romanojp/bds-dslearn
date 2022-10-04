@@ -23,3 +23,7 @@ INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('2.0
 INSERT INTO tb_resource (title , description, position, img_Uri, type, offer_id ) VALUES ('Trilha HTML','Primeiro passo', 1, 'http://www.hiperbytes.com.br/wp-content/uploads/2021/02/banner-curso-html.png', 1, 1);
 INSERT INTO tb_resource (title , description, position, img_Uri, type, offer_id ) VALUES ('Forum','tire sua duvida', 2, 'http://www.hiperbytes.com.br/wp-content/uploads/2021/02/banner-curso-html.png', 2, 1);
 INSERT INTO tb_resource (title , description, position, img_Uri, type, offer_id ) VALUES ('trilha CSS','personalizando o HTML', 3, 'http://www.hiperbytes.com.br/wp-content/uploads/2021/02/banner-curso-html.png', 0, 1);
+
+INSERT INTO tb_section  (title , description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 1', 'Começando', 1, 'http://www.hiperbytes.com.br/wp-content/uploads/2021/02/banner-curso-html.png', 1,null);
+INSERT INTO tb_section  (title , description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 2', 'continuando', 2, 'http://www.hiperbytes.com.br/wp-content/uploads/2021/02/banner-curso-html.png', 1,1);
+INSERT INTO tb_section  (title , description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 3', 'Finalizando', 3, 'http://www.hiperbytes.com.br/wp-content/uploads/2021/02/banner-curso-html.png', 1,2);
