@@ -27,3 +27,6 @@ INSERT INTO tb_resource (title , description, position, img_Uri, type, offer_id 
 INSERT INTO tb_section  (title , description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 1', 'Começando', 1, 'http://www.hiperbytes.com.br/wp-content/uploads/2021/02/banner-curso-html.png', 1,null);
 INSERT INTO tb_section  (title , description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 2', 'continuando', 2, 'http://www.hiperbytes.com.br/wp-content/uploads/2021/02/banner-curso-html.png', 1,1);
 INSERT INTO tb_section  (title , description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 3', 'Finalizando', 3, 'http://www.hiperbytes.com.br/wp-content/uploads/2021/02/banner-curso-html.png', 1,2);
+
+INSERT INTO tb_enrollment(user_id,offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (1, 1,TIMESTAMP WITH TIME ZONE '2020-07-13T22:50:25Z', null, true, false);
+INSERT INTO tb_enrollment(user_id,offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (2, 1,TIMESTAMP WITH TIME ZONE '2020-07-13T22:50:25Z', null, true, false);
