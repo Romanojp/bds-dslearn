@@ -61,7 +61,7 @@ INSERT INTO tb_topic (title, body, moment, author_id, offer_id, lesson_id) VALUE
 INSERT INTO tb_topic (title, body, moment, author_id, offer_id, lesson_id) VALUES ('Título do tópico 5', 'Corpo do tópico 5', TIMESTAMP WITH TIME ZONE '2020-12-16T13:00:00Z', 1, 1, 2);
 INSERT INTO tb_topic (title, body, moment, author_id, offer_id, lesson_id) VALUES ('Título do tópico 6', 'Corpo do tópico 6', TIMESTAMP WITH TIME ZONE '2020-12-17T13:00:00Z', 2, 1, 3);
 
-
-
+INSERT INTO tb_topic_likes (topic_id, user_id) VALUES (1,2);
+INSERT INTO tb_topic_likes (topic_id, user_id) VALUES (2,1);
 
 
